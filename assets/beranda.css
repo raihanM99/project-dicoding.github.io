@@ -637,7 +637,7 @@ li.mySelf h5 {
 li.mySelf img {
   border-radius: 50px;
   width: 100px;
-  box-shadow: 2px 2px 20px 4px rgba(204,204,204,1);
+  box-shadow: 0px 2px 12px -5px rgba(150,150,150,1);
 }
 
 li.mySelf p {
@@ -657,7 +657,7 @@ li.mySelf p {
   li.zonk, li.myself {
     flex-basis: 100%;
     margin-bottom: 90px;
-    box-shadow: 2px 2px 20px 4px rgba(204,204,204,1);
+    box-shadow: 0px 2px 12px -5px rgba(150,150,150,1);
   }
   
   li.zonk p {
@@ -693,4 +693,10 @@ footer {
   padding: 30px 0;
   font-family: 'Quicksand';
   font-weight: 600;
+}
+
+@media (max-width: 670px) {
+  footer {
+    font-size: 15px;
+  }
 }
