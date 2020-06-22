@@ -152,7 +152,7 @@ li.deskripsiProduk a.btn:active {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 670px) {
   .judulProduk {
     font-size: 30px;
   }
@@ -160,4 +160,14 @@ li.deskripsiProduk a.btn:active {
   .judulSubProduk {
     font-size: 20px;
   }
+
+  .deskripsiProduk h3 {
+    font-size: 20px;
+  }
+
+  .areaProduk p {
+    font-size: 15px;
+    text-align: left;
+  }
+
 }
