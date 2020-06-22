@@ -140,6 +140,7 @@ li.deskripsiProduk a.btn:active {
 @media (max-width: 850px) {
   ul.produk-konten {
     flex-wrap: wrap;
+    width: 400px;
   }
 
   .produk-konten li {
@@ -159,15 +160,19 @@ li.deskripsiProduk a.btn:active {
 
   .judulSubProduk {
     font-size: 20px;
+    width: 400px;
+    padding-bottom: 0;
   }
 
   .deskripsiProduk h3 {
     font-size: 20px;
+    width: 350px;
   }
 
   .areaProduk p {
     font-size: 15px;
     text-align: left;
+    padding: 10px;
   }
 
 }
